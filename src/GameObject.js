@@ -16,8 +16,6 @@ export const GameObject = ({ x, y, width, height }) => {
         width,
         height,
       }}
-    >
-      {children}
-    </div>
+    />
   );
 };

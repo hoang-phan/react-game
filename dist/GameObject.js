@@ -25,5 +25,5 @@ var GameObject = exports.GameObject = function GameObject(_ref) {
       width: width,
       height: height
     }
-  }, children);
+  });
 };
