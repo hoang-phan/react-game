@@ -1,3 +1,4 @@
+import React from 'react';
 import { useGameContext } from './GameProvider';
 
 export const GameObject = ({ x, y, width, height }) => {
