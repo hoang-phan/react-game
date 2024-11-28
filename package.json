@@ -1,0 +1,27 @@
+{
+  "name": "react-game",
+  "version": "1.0.0",
+  "description": "Basic game",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoang-phan/react-game.git"
+  },
+  "author": "hoang-phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoang-phan/react-game/issues"
+  },
+  "homepage": "https://github.com/hoang-phan/react-game#readme",
+  "dependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
